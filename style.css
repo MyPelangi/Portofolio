@@ -30,7 +30,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 3rem 9%;
+    padding: 1.5rem 9%;
     background: #ffffff;
     backdrop-filter: blur(10px);
     display: flex;
@@ -232,7 +232,7 @@ section {
     gap: 10rem;
     background-color: var(--second-bg-color);
     color: var(--text-color);
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 .about h2 span{
     color: var(--main-color);
@@ -299,7 +299,7 @@ section {
 
 /* education section */
 .education{
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 .edu-content {
     display: flex;
@@ -341,8 +341,9 @@ section {
 
 /* experiences section */
 .experience{
-    padding-top: 15rem;
-    background-color: var(--second-bg-color);
+    color: var(--bg-color);
+    padding-top: 10rem;
+    background-color: var(--main-color);
 }
 .experience-content {
     margin-top: 3rem;
@@ -352,7 +353,7 @@ section {
     gap: 3rem;
 }
 .profesional-content{
-    background-color: var(--main-color);
+    background-color: var(--second-bg-color);
     margin: 2rem 0 3rem;
     padding: 3rem;
     border-radius: 15px;
@@ -360,7 +361,7 @@ section {
 .profesional-content h3{
     text-align: center;
     font-size: 3rem;
-    color: var(--bg-color);
+    color: var(--main-color);
     margin-bottom: 3rem;
 }
 .profesional-img{
@@ -384,7 +385,7 @@ section {
     align-items: baseline;
     text-align: left;
     justify-content: center;
-    /* color: var(--bg-color); */
+    color: var(--text-color);
     /* margin-top: 3rem; */
 }
 .profesional-text h4{
@@ -398,7 +399,7 @@ section {
     margin-top: 1rem;
 }
 .organization-content{
-    background-color: var(--main-color);
+    background-color: var(--second-bg-color);
     margin: 2rem 0 3rem;
     padding: 3rem 5rem;
     border-radius: 15px;
@@ -406,7 +407,7 @@ section {
 .organization-content h3{
     text-align: center;
     font-size: 3rem;
-    color: var(--bg-color);
+    color: var(--main-color);
     margin-bottom: 3rem;
 }
 .organization-img{
@@ -430,7 +431,7 @@ section {
     align-items: baseline;
     text-align: left;
     justify-content: center;
-    /* color: var(--bg-color); */
+    color: var(--text-color);
     /* margin-top: 3rem; */
 }
 .organization-text h4{
