@@ -296,3 +296,150 @@ section {
     background-color: var(--bg-color);
     width: 50px;
 }
+
+/* education section */
+.education{
+    padding-top: 15rem;
+}
+.edu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+}
+.edu-text{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.edu-img{
+    border-radius: 10%;
+}
+.edu-img img{
+    position: relative;
+    top: 3rem;
+    width: 25vw;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.edu-text h3{
+    color: var(--main-color);
+    font-size: 4rem;
+}
+.edu-text h4{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.edu-text p{
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+/* experiences section */
+.experience{
+    padding-top: 15rem;
+    background-color: var(--second-bg-color);
+}
+.experience-content {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.profesional-content{
+    background-color: var(--main-color);
+    margin: 2rem 0 3rem;
+    padding: 3rem;
+    border-radius: 15px;
+}
+.profesional-content h3{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--bg-color);
+    margin-bottom: 3rem;
+}
+.profesional-img{
+    border-radius: 10%;
+}
+.profesional-img img{
+    border-radius: 10%;
+    width: 8vw;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.profesional-job{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.profesional-text{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    /* color: var(--bg-color); */
+    /* margin-top: 3rem; */
+}
+.profesional-text h4{
+    font-size: 2.5rem;
+}
+.profesional-text h5{
+    font-size: 2rem;
+}
+.profesional-text p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.organization-content{
+    background-color: var(--main-color);
+    margin: 2rem 0 3rem;
+    padding: 3rem 5rem;
+    border-radius: 15px;
+}
+.organization-content h3{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--bg-color);
+    margin-bottom: 3rem;
+}
+.organization-img{
+    border-radius: 50%;
+}
+.organization-img img{
+    border-radius: 50%;
+    width: 8vw;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.organization-job{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.organization-text{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    /* color: var(--bg-color); */
+    /* margin-top: 3rem; */
+}
+.organization-text h4{
+    font-size: 2.5rem;
+}
+.organization-text h5{
+    font-size: 2rem;
+}
+.organization-text p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
