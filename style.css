@@ -219,12 +219,6 @@ section {
 }
 
 /* about section */
-/* span{
-    color: var(--main-color);
-}
-.logo span{
-    color: var(--main-color);
-} */
 .about{
     display: flex;
     justify-content: center;
@@ -285,6 +279,33 @@ section {
     right: -8px;
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
+.about-skill{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 4rem;
+}
+.about-skill img{
+    width: 4rem;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 1.5rem;
+    border-radius: 50px;
+    gap: 2rem;
+}
+.tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 1.5rem;
+    border-radius: 50px;
+    gap: 2rem;
+}
 
 ::-webkit-scrollbar{
     width: 15px;
@@ -316,13 +337,13 @@ section {
     margin-top: 3rem;
 }
 .edu-img{
-    border-radius: 10%;
+    border-radius: 20px;
 }
 .edu-img img{
     position: relative;
     top: 3rem;
     width: 25vw;
-    border-radius: 10%;
+    border-radius: 20px;
     cursor: pointer;
     /* transition: 0.4s ease-in-out; */
 }
@@ -349,7 +370,7 @@ section {
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    /* align-items: center; */
     gap: 3rem;
 }
 .profesional-content{
@@ -376,7 +397,7 @@ section {
 .profesional-job{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 3rem;
 }
 .profesional-text{
@@ -397,6 +418,11 @@ section {
 .profesional-text p{
     font-size: 1.5rem;
     margin-top: 1rem;
+}
+.profesional-text ul{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    font-size: 1.3rem;
 }
 .organization-content{
     background-color: var(--second-bg-color);
@@ -422,7 +448,7 @@ section {
 .organization-job{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 3rem;
 }
 .organization-text{
@@ -444,11 +470,17 @@ section {
     font-size: 1.5rem;
     margin-top: 1rem;
 }
+.organization-text ul{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
 
 /* project section */
 .projects{
     background-color: var(--bg-color);
     padding-top: 7rem;
+    /* padding-bottom: 0; */
 }
 .projects-container{
     margin-top: 3rem;
@@ -488,6 +520,7 @@ section {
     transform: translateY(100%);
     transition: .5s ease;
     color: var(--text-color);
+    cursor: pointer;
 }
 .project-box:hover .project-layer{
     transform: translateY(0);
@@ -524,9 +557,10 @@ section {
 /* footer section */
 .footer{
     position: relative;
-    bottom: 0;
+    /* bottom: 0; */
     width: 100%;
     padding: 40px 0;
+    background: var(--main-color);
     background-color: var(--main-color);
 }
 .footer .social{
@@ -649,6 +683,34 @@ section {
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
+    .about-skill{
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        gap: 2rem;
+    }
+    .about-skill img{
+        width: 4rem;
+        margin: 0;
+    }
+    .skill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg-color);
+        padding: 1.5rem;
+        border-radius: 50px;
+        gap: 2rem;
+    }
+    .tools{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg-color);
+        padding: 1.5rem;
+        border-radius: 50px;
+        gap: 2rem;
+    }
     .edu-content{
         flex-direction: column;
         margin: 5rem 4rem;
@@ -665,9 +727,11 @@ section {
         flex-direction: column;
     }
     .profesional-job{
+        align-items: center;
         flex-direction: column;
     }
     .organization-job{
+        align-items: center;
         flex-direction: column;
     }
     .profesional-img img{
