@@ -740,4 +740,7 @@ section {
     .organization-img img{
         width: 30vw;
     }
+    .footer .copyright{
+        font-size: 10px;
+    }
 }
